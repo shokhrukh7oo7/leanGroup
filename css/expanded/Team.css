@@ -1,0 +1,80 @@
+.team-header {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #2c2d2e;
+  text-align: center;
+  margin: 10px 0 30px;
+}
+.team-header span {
+  color: #ef7c00;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.team-cards .team-card {
+  max-width: 214px;
+  width: 100%;
+}
+.team-cards .team-card .team-name {
+  color: #2c2d2e;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5px;
+  text-align: center;
+}
+.team-cards .team-card .team-paragraph {
+  color: #919399;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  text-align: center;
+}
+.team-cards .team-card .number {
+  color: #2c2d2e;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  text-align: center;
+}
+.team-cards .team-card .email {
+  color: #2c2d2e;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.team-card img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.team-card img:hover {
+  transform: scale(1.05);
+}
+
+.team-btn {
+  background-color: #ffffff;
+  color: #ef7c00;
+  border: 1px solid #ef7c00;
+  padding: 15px 25px;
+  text-align: center;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 520px) {
+  .team-cards {
+    align-items: center;
+    justify-content: center;
+  }
+}

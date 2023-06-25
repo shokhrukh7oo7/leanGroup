@@ -1,0 +1,66 @@
+#header {
+  padding-top: 100px;
+}
+
+.header {
+  background-image: url(../../assets/images/home-bcg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   height: 100vh;
+}
+
+.owl-intro {
+  padding: 250px 0 50px 100px;
+}
+
+.owl-start {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2c2d2e;
+}
+
+.owl-header {
+  margin: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #2c2d2e;
+}
+
+.owl-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 582px;
+  width: 100%;
+  color: #2c2d2e;
+}
+
+.btn {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #ef7c00;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: #2c2d2e;
+    color: #ef7c00;
+  }
+}
+
+.slick-dots li {
+  padding: 25px 0;
+}
+
+@media (max-width: 480px) {
+  .owl-header {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

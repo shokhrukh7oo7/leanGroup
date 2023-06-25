@@ -1,0 +1,52 @@
+#about {
+  margin: 70px 0 0 0;
+}
+
+.about-header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #2c2d2e;
+  margin: 10px 0 25px 0;
+}
+.about-header span {
+  color: #ef7c00;
+}
+
+.player img {
+  max-width: 552px;
+  width: 100%;
+}
+
+.about-start {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-start .player-title {
+  max-width: 552px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #2c2d2e;
+}
+
+@media (max-width: 1200px) {
+  .about-start {
+    gap: 25px;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .about-start {
+    gap: 25px;
+    justify-content: center;
+  }
+  .player-title {
+    font-size: 13px;
+  }
+}

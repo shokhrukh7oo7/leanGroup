@@ -1,0 +1,109 @@
+.news-header {
+  text-align: center;
+  color: #2c2d2e;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px 0 40px;
+}
+
+.news-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .news-card img {
+    max-width: 436px;
+    width: 100%;
+  }
+  .data {
+    color: #919399;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px 0;
+  }
+  .new-paragraph {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #2c2d2e;
+    max-width: 320px;
+    width: 100%;
+  }
+}
+
+.news-btn {
+  color: #ef7c00;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto;
+}
+
+/**/
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px 0;
+  .footer-right {
+    display: flex;
+    gap: 25px;
+  }
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  flex-wrap: wrap;
+  .footer-text {
+    .head {
+      color: #2c2d2e;
+      font-size: 24px;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+    }
+    p {
+      color: #2c2d2e;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      padding: 10px 0;
+    }
+  }
+  .footer-top {
+    .head {
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      color: #ef7c00;
+    }
+  }
+  .footer-bottom {
+    padding: 10px 0;
+    .head {
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      color: #ef7c00;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .news-cards {
+    justify-content: center;
+  }
+}
